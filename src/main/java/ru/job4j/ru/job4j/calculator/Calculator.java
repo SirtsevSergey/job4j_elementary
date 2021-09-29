@@ -1,15 +1,13 @@
 package ru.job4j.ru.job4j.calculator;
 
-public class Calculator {
+class ArgMethod {
 
-    public static void plus(int first, int second) {
-        int result = first + second;
-        System.out.println(result);
+    public static void hello(String name) {
+        System.out.println("Hello, " + name);
     }
 
-       public static void main(String[] args) {
-        Calculator.plus(100, 500);
-        Calculator.plus(4, 2);
-        Calculator.plus(3, 5);
-    }
+    public static void main(String[] args) {
+        String name = "Petr Arsentev";
+        ArgMethod.hello(name);
+        }
 }
