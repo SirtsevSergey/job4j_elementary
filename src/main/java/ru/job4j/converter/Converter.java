@@ -16,5 +16,8 @@ public class Converter {
         int dollar = Converter.rubleToDollar(140);
         System.out.println("140 rubles are " + dollar + " dolar.");
     }
+
+    public static class Fit {
+    }
 }
 
