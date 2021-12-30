@@ -1,17 +1,15 @@
 package ru.job4j.calculator;
 
-class ArgMethod {
+import static ru.job4j.math.MathFunction.*;
 
-    public static void hello(String name, int age) {
-        System.out.println("Hello, " + name + ", age = " + age);
+class MathCalculator {
+
+    public static double sumAndMultiply(double first, double second) {
+        return sum(first, second)
+                + multiply(first, second);
     }
 
     public static void main(String[] args) {
-        String name = "Job4j";
-        int age = 6;
-        ArgMethod.hello(name, age);
-        ArgMethod.hello(name, age);
-        ArgMethod.hello(name, age);
-        ArgMethod.hello(name, age);
+        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
     }
 }
