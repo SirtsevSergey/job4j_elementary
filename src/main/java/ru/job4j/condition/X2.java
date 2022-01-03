@@ -1,8 +1,5 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
-
 public class X2 {
     public static int calc(int a, int b, int c, int x) {
         return a * x * x + b * x + c;
