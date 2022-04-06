@@ -2,7 +2,7 @@ package ru.job4j.array;
 
 public class ArrayLoop {
     public static void main(String[] args) {
-        int[] i = new int[5];
+        int[] i = new int[6];
         for (int index = 0; index < i.length; index++) {
             i[index] = index * 2 + 3;
         }
