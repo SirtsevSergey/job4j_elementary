@@ -6,7 +6,11 @@ import org.junit.Test;
 public class FindLoopTest {
     @Test
     public void whenArrayHas5Then0() {
+<<<<<<< HEAD
         int[] data = {3, 4, 3, 2};
+=======
+        int[] data = {5, 4, 3, 2};
+>>>>>>> origin/master
         int el = 5;
         int result = FindLoop.indexOf(data, el);
         int expected = 0;
