@@ -7,7 +7,7 @@ public class ArrayChar {
             if (word[i] != pref[i]) {
                 return false;
             }
-        }
+
         return true;
     }
 }
