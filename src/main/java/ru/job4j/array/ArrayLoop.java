@@ -4,7 +4,7 @@ public class ArrayLoop {
     public static void main(String[] args) {
         int[] i = new int[5];
         for (int index = 0; index < i.length; index++) {
-            i[index] = index * 2 + 3;
+            i[index] = index * 2 + 4;
         }
 
         for (int in : i) {
