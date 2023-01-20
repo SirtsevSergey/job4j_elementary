@@ -8,6 +8,6 @@ public class ArrayChar {
                 return false;
             }
         }
-        return true;
+        return false;
     }
 }
