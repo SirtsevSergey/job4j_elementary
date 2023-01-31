@@ -1,9 +1,6 @@
 package ru.job4j.array;
 
-import org.jetbrains.annotations.Contract;
-
 public class FindLoop {
-    @Contract(pure = true)
     public static int indexOf(int[] data, int el) {
         int rst = -1; /* если элемента нет в массиве, то возвращаем -1. */
         for (int index = 0; index < data.length; index++) {
@@ -12,11 +9,6 @@ public class FindLoop {
                 break;
             }
         }
-        return rst;
-    }
-
-    public static int indexInRange(int[] data, int el, int start, int finish) {
-        int rst = -1; /* если элемента нет в массиве, то возвращаем -1. */
         return rst;
     }
 }
