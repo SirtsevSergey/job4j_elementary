@@ -8,7 +8,7 @@ public class ArrayChar {
                 return false;
             }
         }
-<<<<<<< HEAD
+
         return true;
 =======
         return false;
